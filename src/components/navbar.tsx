@@ -1,10 +1,12 @@
 import { NavigationMenu, NavigationMenuList, NavigationMenuItem, NavigationMenuLink } from "@/components/ui/navigation-menu";
 
-export default function Navbar() {
+import Image from "next/image";
+
+export function Navbar() {
   return (
     <nav className="z-50 bg-pink-900 shadow-md p-4">
       <div className="flex justify-between items-center">
-        <div className="text-xl font-bold">Logo</div>
+        <h3>logo</h3>
         <NavigationMenu>
           <NavigationMenuList className="space-x-5">
             <NavigationMenuItem>
