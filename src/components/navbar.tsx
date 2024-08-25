@@ -2,11 +2,11 @@ import { NavigationMenu, NavigationMenuList, NavigationMenuItem, NavigationMenuL
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-pink-900 shadow-md p-4">
+    <nav className="z-50 bg-pink-900 shadow-md p-4">
       <div className="flex justify-between items-center">
         <div className="text-xl font-bold">Logo</div>
         <NavigationMenu>
-          <NavigationMenuList>
+          <NavigationMenuList className="space-x-5">
             <NavigationMenuItem>
               <NavigationMenuLink asChild>
                 <a href="#section1">Seção 1</a>
